@@ -8,7 +8,6 @@ function convertToCoin(num){
         }
     }
     return result;
-
 }
 console.log(convertToCoin(543));//[500,20,20,1,1,1]
 console.log(convertToCoin(7752));//[5000,2000,500,200,50,1,1]
